@@ -16,7 +16,9 @@ import com.example.my_contacts.db.Contact_entity
 
 class MainActivity : AppCompatActivity(), ContactsListAdapter.OnItemClickListener {
     companion object{
-    var  mycontactdatabase:AppDatabase?=null}
+    var  mycontactdatabase:AppDatabase?=null
+    //new
+        }
 
 
     var contactListAdapter: ContactsListAdapter?=null
