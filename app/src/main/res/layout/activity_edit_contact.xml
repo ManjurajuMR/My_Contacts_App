@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="EDIT_CONTACT"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:textSize="35dp"
+    android:textAlignment="center"
+    android:gravity="center"/>
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_contact_image"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/title"/>
+    <EditText
+        android:id="@+id/addname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="NAME"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/photo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <EditText
+        android:id="@+id/addmobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Mobile_Number"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_below="@+id/addname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:backgroundTint="#C6BD6A"
+        android:text="Save_Changes"
+        android:layout_below="@+id/addmobile_number"
+        />
+
+</RelativeLayout>
