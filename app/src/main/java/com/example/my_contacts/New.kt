@@ -5,5 +5,14 @@ class New {
     fun newone(){
         //first merge
     }
+
+    fun newtwo(){
+
+    }
+
+    fun newthree(){
+
+    }
+
 }
 
