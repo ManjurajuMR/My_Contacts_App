@@ -10,5 +10,9 @@ class New {
 
     }
 
+    fun newthree(){
+
+    }
+
 }
 
