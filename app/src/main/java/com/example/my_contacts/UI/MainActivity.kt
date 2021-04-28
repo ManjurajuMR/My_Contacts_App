@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(), ContactsListAdapter.OnItemClickListene
     companion object{
     var  mycontactdatabase:AppDatabase?=null
     //new
-        //c1 branch only
+        //c2
         }
 
 
